@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"path": "/var/www/html/ebm/sf2-centrale"
+		},
+		{
+			"path": "/var/www/html/ebm/symfony/tests"
+		}
+	]
+}
