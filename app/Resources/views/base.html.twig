@@ -22,12 +22,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Symple Network</a>
+                <a class="navbar-brand" href="#">Mon joli site</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="{{ path('centrale_user_bundle_wall', {'firstname': 'fabien', "lastname" : 'rondeau'}) }}">Wall</a></li>
+                    <li><a href="{{ path('fos_user_security_login') }}">Login</a></li>
                     <li><a href="{{ path('fos_user_security_logout') }}">Logout</a></li>
+                    <li><a href="./register">Register</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>

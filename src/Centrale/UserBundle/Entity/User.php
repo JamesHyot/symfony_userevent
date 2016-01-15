@@ -31,12 +31,6 @@ class User extends BaseUser
      */
     protected $firstname;
 
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="email", type="string", length=100, nullable=false)
-     */
-    protected $email;
 
     /**
      * Get id
@@ -48,9 +42,59 @@ class User extends BaseUser
         return $this->id;
     }
 
+    /**
+     * Set lastname
+     *
+     * @param string $lastname
+     *
+     * @return User
+     */
+    public function setLastname($lastname)
+    {
+        $this->lastname = $lastname;
+
+        return $this;
+    }
+
+    /**
+     * Get lastname
+     *
+     * @return string
+     */
+    public function getLastname()
+    {
+        return $this->lastname;
+    }
+
+    /**
+     * Set firstname
+     *
+     * @param string $firstname
+     *
+     * @return User
+     */
+    public function setFirstname($firstname)
+    {
+        $this->firstname = $firstname;
+
+        return $this;
+    }
+
+    /**
+     * Get firstname
+     *
+     * @return string
+     */
+    public function getFirstname()
+    {
+        return $this->firstname;
+    }
+
     public function __construct()
     {
         parent::__construct();
         // your own logic
+        //$this->lastname = $lastname;
+        //$this->firstname = $firstname;
     }
 }

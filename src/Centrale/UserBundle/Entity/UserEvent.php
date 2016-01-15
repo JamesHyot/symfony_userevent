@@ -4,7 +4,7 @@ namespace Centrale\UserBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Table(name="fos_user")
+ * @ORM\Table(name="userevent")
  * @ORM\Entity
  */
 class UserEvent
@@ -14,10 +14,25 @@ class UserEvent
      * @ORM\Column(type="integer")
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-    protected $user;
-    protected $event;
-    protected $received_user;
+    protected $id;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="Centrale\UserBundle\Entity\User")
+     * @var User
+     */
+    protected $user;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="Centrale\UserBundle\Entity\Event")
+     * @var Event
+     */
+    protected $event;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="Centrale\UserBundle\Entity\User")
+     * @var User
+     */
+    protected $received_user;
 
     public function __construct()
     {
