@@ -96,5 +96,6 @@ class User extends BaseUser
         // your own logic
         //$this->lastname = $lastname;
         //$this->firstname = $firstname;
+        $this->roles = array('ROLE_USER');
     }
 }

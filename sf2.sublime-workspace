@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Use",
+				"UserBundle"
+			],
+			[
 				"startdate",
 				"startdate"
 			],
@@ -112,14 +116,6 @@
 	"buffers":
 	[
 		{
-			"file": "app/config/config.yml",
-			"settings":
-			{
-				"buffer_size": 2244,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/config/routing.yml",
 			"settings":
 			{
@@ -136,10 +132,18 @@
 			}
 		},
 		{
-			"file": "src/Centrale/UserBundle/Resources/views/Default/index.html.twig",
+			"file": "src/Centrale/UserBundle/DataFixtures/ORM/LoadEventData.php",
 			"settings":
 			{
-				"buffer_size": 91,
+				"buffer_size": 712,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Centrale/UserBundle/Entity/Event.php",
+			"settings":
+			{
+				"buffer_size": 1891,
 				"line_ending": "Unix"
 			}
 		},
@@ -147,15 +151,31 @@
 			"file": "app/config/security.yml",
 			"settings":
 			{
-				"buffer_size": 876,
+				"buffer_size": 1039,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/Centrale/UserBundle/Form/PostType.php",
+			"file": "src/Centrale/UserBundle/Controller/DefaultController.php",
 			"settings":
 			{
-				"buffer_size": 889,
+				"buffer_size": 920,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Centrale/UserBundle/Entity/User.php",
+			"settings":
+			{
+				"buffer_size": 1714,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 177,
 				"line_ending": "Unix"
 			}
 		}
@@ -212,10 +232,17 @@
 	},
 	"file_history":
 	[
-		"/var/www/html/ebm/sf2-centrale/src/Centrale/UserBundle/Controller/DefaultController.php",
-		"/var/www/html/ebm/sf2-centrale/src/Centrale/UserBundle/Resources/views/Default/index.html.twig",
-		"/var/www/html/ebm/sf2-centrale/src/Centrale/UserBundle/Entity/Post.php",
 		"/var/www/html/ebm/sf2-centrale/src/Centrale/UserBundle/Entity/User.php",
+		"/var/www/html/ebm/sf2-centrale/app/config/config.yml",
+		"/var/www/html/ebm/sf2-centrale/src/Centrale/UserBundle/DataFixtures/ORM/LoadUserData.php",
+		"/var/www/html/ebm/sf2-centrale/src/Centrale/UserBundle/Form/RegistrationType.php",
+		"/var/www/html/ebm/sf2-centrale/app/cache/dev/classes.map",
+		"/var/www/html/ebm/sf2-centrale/app/config/services.yml",
+		"/var/www/html/ebm/sf2-centrale/src/Centrale/UserBundle/Resources/views/Default/index.html.twig",
+		"/var/www/html/ebm/sf2-centrale/app/AppKernel.php",
+		"/var/www/html/ebm/sf2-centrale/src/Centrale/UserBundle/Form/PostType.php",
+		"/var/www/html/ebm/sf2-centrale/src/Centrale/UserBundle/Controller/DefaultController.php",
+		"/var/www/html/ebm/sf2-centrale/src/Centrale/UserBundle/Entity/Post.php",
 		"/var/www/html/ebm/sf2-centrale/src/Centrale/UserBundle/Entity/Event.php",
 		"/var/www/html/ebm/sf2-centrale/src/Centrale/UserBundle/Entity/UserEvent.php",
 		"/var/log/dist-upgrade/apt.log",
@@ -332,14 +359,7 @@
 		"/var/www/html/ebm/jameshyot/postclem.html",
 		"/home/james/EBM/PLSQL/Objet-Relationnel/partie2/set_all_titres_etrangers.sql",
 		"/home/james/EBM/PLSQL/Objet-Relationnel/partie2/set_all_noms_etrangers.sql",
-		"/home/james/EBM/PLSQL/Objet-Relationnel/partie2/Lance_les_scripts_2eme_partie.sql",
-		"/home/james/EBM/PLSQL/Objet-Relationnel/partie2/Lance_les_scripts_1ere_partie.sql",
-		"/home/james/EBM/PLSQL/Objet-Relationnel/partie2/insert_personnages.sql",
-		"/home/james/EBM/PLSQL/Objet-Relationnel/partie2/insert_languages.sql",
-		"/home/james/EBM/PLSQL/Objet-Relationnel/partie2/insert_albums.sql",
-		"/home/james/EBM/PLSQL/Objet-Relationnel/partie2/ajoute_personnage_dans_album.sql",
-		"/var/www/html/ebm/jameshyot/postintro.html",
-		"/var/www/html/ebm/jameshyot/index.html"
+		"/home/james/EBM/PLSQL/Objet-Relationnel/partie2/Lance_les_scripts_2eme_partie.sql"
 	],
 	"find":
 	{
@@ -357,6 +377,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"/\n",
+			"event",
 			"hello",
 			"email",
 			"database",
@@ -409,39 +431,11 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/config/config.yml",
-					"settings":
-					{
-						"buffer_size": 2244,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								456,
-								456
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "app/config/routing.yml",
 					"settings":
 					{
@@ -467,7 +461,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "app/Resources/views/base.html.twig",
 					"settings":
 					{
@@ -489,33 +483,63 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 102.0,
+						"translation.y": 153.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "src/Centrale/UserBundle/Resources/views/Default/index.html.twig",
+					"buffer": 2,
+					"file": "src/Centrale/UserBundle/DataFixtures/ORM/LoadEventData.php",
 					"settings":
 					{
-						"buffer_size": 91,
+						"buffer_size": 712,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								55,
-								55
+								588,
+								588
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/Centrale/UserBundle/Entity/Event.php",
+					"settings":
+					{
+						"buffer_size": 1891,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1888,
+								1888
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -525,15 +549,15 @@
 					"file": "app/config/security.yml",
 					"settings":
 					{
-						"buffer_size": 876,
+						"buffer_size": 1039,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								473,
-								473
+								1014,
+								1014
 							]
 						],
 						"settings":
@@ -550,18 +574,18 @@
 				},
 				{
 					"buffer": 5,
-					"file": "src/Centrale/UserBundle/Form/PostType.php",
+					"file": "src/Centrale/UserBundle/Controller/DefaultController.php",
 					"settings":
 					{
-						"buffer_size": 889,
+						"buffer_size": 920,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								777,
+								777
 							]
 						],
 						"settings":
@@ -569,6 +593,60 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/Centrale/UserBundle/Entity/User.php",
+					"settings":
+					{
+						"buffer_size": 1714,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1706,
+								1706
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1326.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": ".gitignore",
+					"settings":
+					{
+						"buffer_size": 177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								177
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -625,11 +703,15 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/home/james/GitHub/mouton-rouge/mouton-rouge.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": false,

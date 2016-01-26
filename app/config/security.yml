@@ -16,8 +16,11 @@ security:
             form_login:
                 provider: fos_userbundle
                 csrf_token_generator: security.csrf.token_manager
+                always_use_default_target_path: true
+                default_target_path: /events
 
-            logout:       true
+            logout:
+                target: /home
             anonymous:    true
 
     access_control:
@@ -27,3 +30,4 @@ security:
         - { path: ^/home, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/, role: ROLE_ADMIN }
         - { path: ^/admin/, role: ROLE_ADMIN }
+        - { path: ^/events, role: ROLE_USER }

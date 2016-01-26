@@ -24,4 +24,12 @@ class DefaultController extends Controller
         return $this->render('CentraleUserBundle:Default:index.html.twig');
     }
 
+    /**
+     * @Route("/events")
+     */
+    public function eventsAction()
+    {
+        
+        return $this->render('CentraleUserBundle:Default:index.html.twig');
+    }
 }
